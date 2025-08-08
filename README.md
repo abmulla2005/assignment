@@ -139,13 +139,5 @@ Edit
 
 ---
 
-Let me know if you'd like me to generate a `requirements.txt` or include deployment instructions (e.g., Vercel, Docker, or Railway).
 
 
-
-
-
-
-
-
-Ask ChatGPT
