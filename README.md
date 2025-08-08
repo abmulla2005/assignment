@@ -11,47 +11,9 @@ This project uses:
 
 ---
 
-## 📦 Features
 
-- Submit and fetch **Wheel Specifications** forms.
-- Submit and fetch **Bogie Checksheet** forms.
-- Automatically prevents duplicate form submissions based on `formNumber`.
-- Supports JSON-based backup loading from `KPA_form_data.postman_collection.json.json`.
-- Clean and structured API responses via FastAPI + JSONResponse.
-
----
-
-## 🚀 Getting Started
-
-### 1. Clone the repository
-
-```bash
-git clone https://github.com/your-username/icf-forms-api.git
-cd icf-forms-api
-2. Create a virtual environment
-bash
-Copy
-Edit
-python -m venv venv
-source venv/bin/activate  # On Windows: venv\Scripts\activate
-3. Install dependencies
-bash
-Copy
-Edit
-pip install -r requirements.txt
-requirements.txt Example:
-
-nginx
-Copy
-Edit
-fastapi
-uvicorn
-sqlalchemy
-pydantic
 4. Run the API server
-bash
-Copy
-Edit
+
 uvicorn main:app --reload
 📘 API Documentation
 FastAPI automatically generates interactive docs:
@@ -73,8 +35,7 @@ POST	/api/forms/wheel-specifications	Submit a new Wheel Specification form
 WheelSpecificationsForm Schema:
 
 json
-Copy
-Edit
+
 {
   "formNumber": "WS-001",
   "submittedBy": "Engineer Name",
@@ -85,7 +46,7 @@ Edit
   }
 }
 🧾 Bogie Checksheet
-Method	Endpoint	Description
+
 GET	/api/forms/bogie-checksheet	Fetch all Bogie Checksheet forms
 POST	/api/forms/bogie-checksheet	Submit a new Bogie Checksheet form
 
@@ -127,17 +88,7 @@ Unit and integration tests.
 
 👨‍💻 Author
 Abrar Mulla
-📧 [Your Email]
-🔗 [Your LinkedIn / GitHub Profile]
-
-📝 License
-This project is licensed under the MIT License.
-
-yaml
-Copy
-Edit
-
----
-
+📧 abmulla2005@gmail.com
+🔗 www.linkedin.com/in/abrar-mulla-326778306
 
 
